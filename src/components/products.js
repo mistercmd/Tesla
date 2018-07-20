@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import Button from './button';
+import houseBtns from './ProductBtns/houseBtns';
+import Model3Btns from './ProductBtns/Model3Btns';
+import ModelSBtns from './ProductBtns/ModelSBtns';
+import ModelXBtns from './ProductBtns/ModelXBtns';
 
 
-const Products = ({ title, productTitle, productSubtitle, imageLink, text }) => {
+const Products = ({ title, productTitle, productSubtitle, imageLink, btn }) => {
     return (
         <div>
 
@@ -17,8 +20,7 @@ const Products = ({ title, productTitle, productSubtitle, imageLink, text }) => 
             <div>
                 <p>{productSubtitle}</p>
             </div>
-
-            <Button text={text}/>
+            
         </div>
     )
 }
