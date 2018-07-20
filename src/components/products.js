@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Button from './button';
 
 
-const Products = (title, productTitle, productSubtitle, imageLink) => {
+const Products = ({ title, productTitle, productSubtitle, imageLink, text }) => {
     return (
         <div>
 
@@ -14,8 +15,12 @@ const Products = (title, productTitle, productSubtitle, imageLink) => {
             </div>
 
             <div>
-                <h3>{productSubtitle}</h3>
+                <p>{productSubtitle}</p>
             </div>
+
+            <Button text={text}/>
         </div>
     )
 }
+
+export default Products;
