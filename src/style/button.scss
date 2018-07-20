@@ -1,0 +1,27 @@
+.DarkBtn {
+    width: 214px;
+    height: 39px;
+    cursor: pointer;
+    border-radius: 500px;
+    background-color: #222222;
+    font-weight: 600;
+    color: white;
+    margin: 5px;
+    &:hover {
+        background-color: black;
+    }
+}
+
+.LightBtn {
+    width: 214px;
+    height: 39px;
+    cursor: pointer;
+    border-radius: 500px;
+    background-color: transparent;
+    font-weight: 600;
+    margin: 5px;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
