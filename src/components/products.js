@@ -5,7 +5,7 @@ import ModelSBtns from './ProductBtns/ModelSBtns';
 import ModelXBtns from './ProductBtns/ModelXBtns';
 
 
-const Products = ({ title, productTitle, productSubtitle, imageLink, btn }) => {
+const Products = ({ title, productTitle, productSubtitle, imageLink }) => {
     return (
         <div>
 
