@@ -1,31 +1,52 @@
 @import 'pagestyles';
 @import 'navbar';
-@import 'button'
+@import 'button';
 
 
-//.home {
-//    display: grid;
-//    grid-template-columns: 1;
-//    grid-template-rows: 4;
-//    .product-background {
-//        z-index: -10;
-//    }
-//
-//
-//    .top {
-//        
-//
-//    }
-//
-//    .middle-top {
-//        grid-row: 2;
-//    }
-//
-//    .middle-bottom {
-//        grid-row: 3;
-//    }
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
 
-  //.bottom {
-    //    grid-row: 4;
-  //  }
-//}
+.top {
+  grid-row: 1;
+  .navbar {
+      ul {
+  display:flex;  
+  list-style:none;
+  text-decoration: none;
+        li {
+          margin: 0px 10px;
+          color: $color-three; 
+        }
+    }
+  }
+}
+
+.middle-top {
+  grid-row: 2;
+}
+
+.middle-bottom {
+  grid-row: 3;
+}
+
+.bottom {
+  grid-row: 4;
+  ul {
+    display:flex;  
+    list-style:none;
+    text-decoration: none;
+          li {
+            margin: 0px 10px;
+            color: $color-three;
+            justify-self: center; 
+          }
+        }
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+}

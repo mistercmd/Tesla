@@ -9,11 +9,13 @@ class Navbar extends Component {
                 </div>
 
                 <div className="navbar__vehicles">
-                        <p><a href="">Model S</a></p>
-                        <p><a href="">Model X</a></p>
-                        <p><a href="">Model 3</a></p>
-                        <p><a href="">Roadster</a></p>
-                        <p><a href="">Energy</a></p>
+                    <ul>
+                        <li><a href="">Model S</a></li>
+                        <li><a href="">Model X</a></li>
+                        <li><a href="">Model 3</a></li>
+                        <li><a href="">Roadster</a></li>
+                        <li><a href="">Energy</a></li>
+                    </ul>
                 </div>
 
                 <div className="navbar__info">
@@ -21,7 +23,7 @@ class Navbar extends Component {
                         <li><a href="" title="Get Tesla">Get Newsletter</a></li>
                         <li><a href="">Shop</a></li>
                         <li><a href="">Sign In</a></li>
-                        <li>{/*Insert fas fa bars*/}</li>
+                        <li><i class="fas fa-bars"></i></li>
 
                     </ul>
                 </div>

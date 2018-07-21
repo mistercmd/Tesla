@@ -5,10 +5,10 @@ class ModelXButtons extends Component {
     render() {
         return (
             <React.Fragment>
-            <Button text="Order Now" className=""/>
-            <Button text="Learn More" className=""/>
-            <Button text="Test Drive" className=""/>
-            <Button text="Shop Inventory" className=""/>
+            <Button text="Order Now" className="DarkBtn"/>
+            <Button text="Learn More" className="LightBtn"/>
+            <Button text="Test Drive" className="LightBtn"/>
+            <Button text="Shop Inventory" className="LightBtn"/>
             </React.Fragment>
         )
     }

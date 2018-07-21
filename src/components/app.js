@@ -10,7 +10,7 @@ import HouseButtons from './ProductBtns/houseBtns';
 export default class App extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="app">
         <div className="top">
         <Navbar/> 
         <Products title="Model-3" productTitle="Model 3" productSubtitle="The car of the future" imageLink="https://i.imgur.com/wka19d9.jpg"/>
